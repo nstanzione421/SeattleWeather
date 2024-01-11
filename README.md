@@ -17,9 +17,9 @@ Spent a couple weeks learning Airflow to get familiar with some modern data engi
 
 ### Process
 - Defined 3 python functions that calls OpenWeatherAPI
--- First Call gets the geolocation (latitude & longitude) of specified city (default to Seattle)
--- Second Call gets the weather data associated with the provided cooridnates
--- Third Call gets the air pollution data associated with provided coordinates
+   - First Call gets the geolocation (latitude & longitude) of specified city (default to Seattle)
+   - Second Call gets the weather data associated with the provided cooridnates
+   - Third Call gets the air pollution data associated with provided coordinates
 - The raw data is stored on an AWS S3 bucket via python function
 - AirFlow is used to orchestrate this process to run hourly
 - Several other AWS tools used to properly set-up Airflow in AWS with MWAA
