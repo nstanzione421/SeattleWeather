@@ -1,0 +1,13 @@
+# Ignore files in specific folders but keep the folder structure
+/logs/*
+/plugins/*
+/config/*
+
+# Ignore the entire /data directory
+/data
+
+# Ignore .env files
+*.env
+
+# Ignore requirements_2.txt
+requirements_2.txt
